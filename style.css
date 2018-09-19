@@ -1,0 +1,18 @@
+body {
+    background:lightcoral;
+}
+
+img {
+    display: inline-flex;
+    float:left;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.clearfix::after {
+    display: block;
+    clear:both;
+}
